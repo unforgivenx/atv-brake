@@ -1,0 +1,4 @@
+<launch>
+	<node name="brake" pkg="brake" type="brake"/>
+	<node name="serial_node.py" pkg="rosserial_python" type=""serial_node.py"/>
+</launch>
